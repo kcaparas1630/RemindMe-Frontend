@@ -1,5 +1,5 @@
 # Base image for the container
-FROM node:20.16.0
+FROM node:24.22.1
 
 ENV npm_config_cache=/app/.npm
 ENV APP_USER=1011540000
